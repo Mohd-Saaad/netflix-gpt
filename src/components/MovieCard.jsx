@@ -11,7 +11,7 @@ const MovieCard = ({ posterPath, overview, title }) => {
       />
 
       {/* Dark gradient overlay */}
-      <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg" />
+      <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 group-hover:scale-105" />
 
       {/* Movie Info (shown on hover) */}
       <div className="absolute bottom-0 p-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white">
