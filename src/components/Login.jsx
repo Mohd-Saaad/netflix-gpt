@@ -123,7 +123,10 @@ const Login = () => {
           className="p-4 my-4 w-full bg-gray-700"
         />
         <p className="text-red-500 ">{errorMsg}</p>
-        <button className="p-4 bg-red-700 my-4 w-full" onClick={handleOnClick}>
+        <button
+          className="p-4 bg-red-700 my-4 w-full cursor-pointer"
+          onClick={handleOnClick}
+        >
           {isSignIn ? "Sign in" : "Sign up"}
         </button>
         <p className="py-4  cursor-pointer" onClick={toggleSignIn}>
