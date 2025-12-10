@@ -5,8 +5,7 @@ const MovieList = ({ title, movies }) => {
   const handleWheel = (e) => {
     e.preventDefault();
 
-    const scrollSpeed = 3;
-    e.currentTarget.scrollLeft += e.deltaY * scrollSpeed;
+    const scrollSpeed = 3; e.currentTarget.scrollLeft += e.deltaY * scrollSpeed;
   };
   return (
     <div>

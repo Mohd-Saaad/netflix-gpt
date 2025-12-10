@@ -8,7 +8,7 @@ import {
   signInWithEmailAndPassword,
 } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
-import { AVATAR } from "../utils/constansts";
+import { AVATAR, BG_IMG_URL } from "../utils/constansts";
 const Login = () => {
   const [isSignIn, setIsSignIn] = useState(true);
   const [errorMsg, setErrorMsg] = useState(null);
@@ -85,11 +85,7 @@ const Login = () => {
     <>
       <Header />
       <div>
-        <img
-          className="absolute"
-          src="https://assets.nflxext.com/ffe/siteui/vlv3/30c8b9f4-3db9-4b3b-a1ee-8fa56531b712/web/IN-en-20251201-TRIFECTA-perspective_c7623e8e-c406-43d2-9d9a-0140ce19ac84_large.jpg"
-          alt="netflix-logo"
-        />
+        <img className="absolute" src={BG_IMG_URL} alt="netflix-logo" />
       </div>
 
       <form

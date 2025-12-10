@@ -9,3 +9,13 @@ export const API_OPTIONS = {
   },
 };
 export const IMG_URL = "https://image.tmdb.org/t/p/w780/";
+export const BG_IMG_URL =
+  "https://assets.nflxext.com/ffe/siteui/vlv3/30c8b9f4-3db9-4b3b-a1ee-8fa56531b712/web/IN-en-20251201-TRIFECTA-perspective_c7623e8e-c406-43d2-9d9a-0140ce19ac84_large.jpg";
+export const SUPPORTED_LANGUAGES = [
+  { identifier: "en", name: "English" },
+  { identifier: "hi", name: "Hindi" },
+  { identifier: "es", name: "Spanish" },
+  { identifier: "ru", name: "Russian" },
+  { identifier: "jp", name: "Japanese" },
+  { identifier: "ko", name: "Korean" },
+];
